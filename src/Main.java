@@ -16,3 +16,4 @@ public class Main {
         System.out.println(a + "-" + b + "=" + calculator.calculate(a, b));
     }
 }
+//runtime strategy switching without a selection mechanism
