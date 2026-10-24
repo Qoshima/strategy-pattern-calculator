@@ -3,10 +3,10 @@ public class Main {
         int a = 3;
         int b = 2;
         Calculator calculator = new Calculator(new AddStrategy());
-        System.out.println(calculator.calculate(a, b));
+        System.out.println(a + "+" + b + "=" + calculator.calculate(a, b));
         calculator.setStrategy(new MultiplyStrategy());
-        System.out.println(calculator.calculate(a, b));
+        System.out.println(a + "*" + b + "=" + calculator.calculate(a, b));
         calculator.setStrategy(new SubstractStrategy());
-        System.out.println(calculator.calculate(a, b));
+        System.out.println(a + "-" + b + "=" + calculator.calculate(a, b));
     }
 }
